@@ -8,7 +8,7 @@ publish = false
 cortex-m = { version = "0.7", features = ["inline-asm"] }
 embedded-hal = "0.2"
 log = "0.4"
-teensy4-bsp = { version = "0.4", features = ["rt", "usb-logging"]}
+teensy4-bsp = { version = "0.4", features = ["rt"]}
 teensy4-panic = "0.2"
 rtic = { version = "2.0", features = ["thumbv7-backend"] }
 
