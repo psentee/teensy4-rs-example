@@ -1,0 +1,8 @@
+rustflags = [
+  "-C", "linker=ld.lld",
+  "-C", "link-arg=--nmagic",
+  "-C", "link-arg=-Tt4link.x",
+  ]
+
+[build]
+target = "thumbv7em-none-eabihf"
